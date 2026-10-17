@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pour Chaimae 💕</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg1:#ffe3ec;--bg2:#ffc2d4;--ink:#4a0e2e;--soft:#8a3d63;--rose:#d81b60;--card:rgba(255,255,255,.75);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg1:#2b0820;--bg2:#4a0e35;--ink:#ffe6ee;--soft:#f0b4ca;--rose:#ff6b97;--card:rgba(255,255,255,.08);color-scheme:dark}}
+:root[data-theme="dark"]{--bg1:#2b0820;--bg2:#4a0e35;--ink:#ffe6ee;--soft:#f0b4ca;--rose:#ff6b97;--card:rgba(255,255,255,.08);color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{background:linear-gradient(160deg,var(--bg1),var(--bg2)) fixed;color:var(--ink);font:400 18px/1.65 "DM Sans",system-ui,sans-serif;overflow-x:hidden}
+h1,h2{font-family:"Fraunces",Georgia,serif;font-style:italic;margin:0;line-height:1.02}
+:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+.pg{display:none;min-height:100vh;min-height:100svh;padding:9vh 7vw 12vh;position:relative;z-index:2}
+.pg.on{display:flex;flex-direction:column;justify-content:center;animation:in .8s ease both}
+@keyframes in{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+.mid{align-items:center;text-align:center}
+.kicker{font-size:clamp(20px,3.4vw,30px);color:var(--soft);margin-bottom:10px}
+.big{font-size:clamp(54px,15vw,190px);font-weight:700;color:var(--rose);letter-spacing:-.03em}
+.mid h2.sm{font-size:clamp(28px,6vw,58px);margin-top:18px;font-weight:400}
+.mid p{max-width:34ch;color:var(--soft);margin:20px auto 32px;font-size:20px}
+.btn{font:500 19px "DM Sans",sans-serif;border:0;border-radius:999px;padding:17px 38px;cursor:pointer;background:var(--rose);color:#fff;box-shadow:0 10px 30px rgba(216,27,96,.35);transition:transform .2s}
+.btn:hover{transform:scale(1.07)}
+.bar{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px}
+.mid .bar{justify-content:center}
+.ghost{background:transparent;color:var(--rose);box-shadow:none;border:2px solid var(--rose)}
+h2.t{font-size:clamp(38px,8vw,84px);color:var(--rose);margin-bottom:8px}
+.sub{color:var(--soft);margin:0 0 28px}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin:0;padding:0;list-style:none}
+.list li{background:var(--card);backdrop-filter:blur(6px);border-radius:22px;padding:18px 20px;display:flex;gap:14px;align-items:flex-start;font-weight:500}
+.list b{font:700 22px "Fraunces",serif;font-style:italic;color:var(--rose);min-width:2ch}
+.letter{background:var(--card);backdrop-filter:blur(6px);border-radius:34px;padding:clamp(26px,5vw,60px);max-width:760px;margin:0 auto;font-size:clamp(18px,2.3vw,22px);line-height:1.8}
+.letter p{margin:0 0 18px}
+.sig{font:700 clamp(30px,5vw,44px) "Fraunces",serif;font-style:italic;color:var(--rose)}
+#bg{position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden}
+.fl{position:absolute;bottom:-50px;animation:up linear forwards}
+@keyframes up{to{transform:translateY(-115vh) rotate(30deg);opacity:0}}
+@media (prefers-reduced-motion:reduce){.pg.on{animation:none}#bg{display:none}}
+</style>
+</head>
+<body>
+<div id="bg" aria-hidden="true"></div>
+
+<section class="pg mid on">
+<div class="kicker">Hadi dyalek, a Chaimae 🌹</div>
+<h1 class="big">Kanbghik bzzaf</h1>
+<h2 class="sm">Nti l7aja l7ssan f dyali 💕</h2>
+<p>Sawebt lik had l'hadiya sghira. Dghet 3la bouton bach tchoufi 100 sabab 3lach kanbghik ✨</p>
+<div class="bar"><button class="btn" data-go="1">Chouf 💌</button></div>
+</section>
+
+<section class="pg">
+<h2 class="t">100 sabab 💖</h2>
+<p class="sub">3lach kanbghik, wa7ed b wa7ed ✨</p>
+<ul class="list" id="list"></ul>
+<div class="bar"><button class="btn ghost" data-go="0">↩ Rje3</button><button class="btn" data-go="2">Risala 💌</button></div>
+</section>
+
+<section class="pg">
+<h2 class="t">Risala lik 💌</h2>
+<div class="letter">
+<p>A Chaimae 🌸,</p>
+<p>Ma kankhelli ta nhar bla ma nfekker fik. Merra merra kan7ess belli ma kanqdersh nqolha b l7orouf kamline, walakin bghit tsm3i belli nti mohima bzzaf 3andi 💗.</p>
+<p>Nti li kat3ti l ayami ma3na. Mli kanchofek, kanbtessem bla ma n7ess. Mli ma kankounch m3ak, kannsstenna ghir l'wa9t li ntlaqaw fih mn jdid 🥹.</p>
+<p>Chokran 3la dhekk, 3la sbr, 3la lkelmat l7lwin, w 3la kolla lma7atat li 3chnaha m3a b3dna ✨. Ma bghitch ta chi 7aja ghir nkoun dima janbek, w nshof lbtissama dyalek kol nhar 🌷.</p>
+<p>Nti l7ob, w nti l'amane, w nti dar li kan7ess fiha rassi f dari 🏡💕.</p>
+<p class="sig">Dima dyalek ❤</p>
+</div>
+<div class="bar"><button class="btn ghost" data-go="1">↩ Rje3</button><button class="btn" data-go="3">Kmel 💞</button></div>
+</section>
+
+<section class="pg mid">
+<div class="kicker">Wlkhir kayn ghir jomla wa7da 🥰</div>
+<h1 class="big">Kanbghik bzzaf ❤</h1>
+<h2 class="sm">Chaimae, nti dima f qalbi 💘</h2>
+<div class="bar"><button class="btn" id="more">Zid 7ob 💗</button><button class="btn ghost" data-go="0">Men lbidaya 🔁</button></div>
+</section>
+
+<script>
+var R="7it dhktek katsswab liya nharat kamla|7it 3inik kayqolo kolchi|7it kat7ssi bia 9bel ma nhder|7it nti safya f qalbek|7it kandir rassi 3la tbi3ti m3ak|7it sawtek kaykhlli qalbi ydi2|7it kat3awnini 7ta f ssa3ba|7it lbtissama dyalek kat9ta3 lhmm|7it nti ssbab dyal farhti|7it katsm3ini mli kanhder|7it nti sadi9a w 7abiba f nfs lwa9t|7it kat3tini l9ouwa|7it ma kanchoufch fik ghir lkhir|7it ghir kanfekkar fik kanbtessem|7it nti kat3rfi chnou f balli bla ma nqol|7it kanahlek kolla nhar a7san|7it lklam m3ak ma kaytkhlass|7it nti sadiqa m3a rassek|7it dhekk dyalek m3dio|7it 7nanek kbir|7it nti sadi9a f wa9t sa3b|7it kat7rmi lahlam dyali|7it mli kanbki kat9ti3 ldmou3|7it nti nta w ma kat9llidch|7it 3iniik zwina bzzaf|7it nti dima mtfa2la|7it kanta2ker fik mli kan7ess b l7zn|7it ma kanmellch mn lhdra m3ak|7it nti kat3rfi tchoufi zwin f nass|7it nti ma kat7kmich 3la ta wahed|7it nti hadia w ma3a2ibch|7it m3ak kanb9a nta w ma kankhef mn walou|7it kat9bli 3iyoubi|7it kat3tini nasi7a sa7a|7it nti kat3ti kolchi dyalek|7it krama dyalek kbira|7it fkr dyalek zwin|7it lhdra dyalek kaytb3 l9alb|7it nti kat3ti l ayami ma3na|7it lbtissama dyalek tssfi lyoum|7it nti dima 9riba|7it mli kankoun m3ak kan7ess b l'amane|7it kandir rassi ana f dari|7it nti tla3ti f 7yati f wa9t mounassib|7it nti ndiya mn dakhel|7it kanfta5er bik|7it 3tiba dyalek hanya|7it nti kat9bl lkhtilaf|7it nti b3ida 3la lkhbts|7it lbssit dyalek zwin|7it nti kat3rfi twssl|7it mli kanhder m3ak kan7ss b rassi 7orr|7it nti ka t5ssna b lbtissama|7it hdourek kaywli l'jaww zwin|7it nti kat'dhi 3la 3aylk|7it nti ntiya w ma3lik l9iyas|7it nti kat3ti l9ima l lkhrin|7it kayn fik 7aja khassa|7it nti kat3ti l ay wa7ed 7a9o|7it mli kanmchi f chi blassa kan7ab nji m3ak|7it ma kankdbch 3lik|7it nti wa9fa f 7ssabi|7it fkra dyalek kayrba7ni|7it nti 7ayat w farha|7it nti kat'mchi qodam|7it dhekk dyalek kaydkhel l9alb|7it nti tafaw9a f ay 7aja|7it 3andek lqalb lkbir|7it nti 7sasa w mou2aththira|7it lawn dyal 3inik kayjbdni|7it kolla marra kanchoufek kanssal rassi kifach 7ssit b hadchi|7it nti ssbab dyal tafa2oli|7it m3ak ma kayn ta chi wa9t mmel|7it mli kantkellem m3ak kan7ss nssma3|7it nti dima mourafi9a|7it nti kat9aweb bzzaf|7it nti kat7ebb 7ayati|7it fkra dyalek makitnsach|7it nti sbab dyal ssa3ada|7it nti hnana|7it nti kat3rf tfahem|7it nti 3anda yadd 7nina|7it mli kanzorek kandkhol l baraka|7it mli kankoun m3ak kanssa l hmmoum|7it nti dima fi balti|7it nti kat7ebb kamli|7it kolchi 3ndek hnan|7it nti wa7da f dounia|7it ma kayn ta chi wa7ed bhalek|7it nti li khtartek qalbi|7it kanb3d 3la dnoub b3d mli ntlaqina|7it nti 3awnti 3la ndoubi|7it nti mohima bzzaf|7it nti 3ndek n9ata mmizza|7it nti kanbghik bla chart|7it fiha kolchi lli bghit|7it nti li kanfkr fiha mli kanbda nhari|7it nti li kanfkr fiha mli kannssa 3la nhari|7it kandir rassi mzyan mli kanbghik|7it nti Chaimae, w hadchi kafi 💕".split("|");
+var ul=document.getElementById("list"),em=["💖","🌹","✨","💗","🌸","🥰","💞","🌷"];
+R.forEach(function(t,i){var li=document.createElement("li");li.innerHTML="<b>"+(i+1)+"</b><span>"+t+" "+em[i%8]+"</span>";ul.appendChild(li)});
+var P=document.querySelectorAll(".pg");
+function go(n){P.forEach(function(p,i){p.classList.toggle("on",i===n)});window.scrollTo(0,0);if(n===3)hearts(30)}
+document.querySelectorAll("[data-go]").forEach(function(b){b.addEventListener("click",function(){go(+b.dataset.go)})});
+var bg=document.getElementById("bg"),E=["❤","💗","💖","🌸","✨"];
+function hearts(n){for(var k=0;k<n;k++){var e=document.createElement("span");e.className="fl";e.textContent=E[k%5];e.style.left=Math.random()*96+"vw";e.style.fontSize=(16+Math.random()*26)+"px";e.style.animationDuration=(6+Math.random()*6)+"s";e.style.animationDelay=Math.random()*2+"s";bg.appendChild(e);setTimeout(function(x){x.remove()},14000,e)}}
+hearts(14);setInterval(function(){hearts(3)},3500);
+document.getElementById("more").addEventListener("click",function(){hearts(40)});
+</script>
+</body>
+</html>
